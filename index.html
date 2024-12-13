@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dice game</title>
     <link rel="stylesheet" href="style.css">
     <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-
+ 
 <body>
     <header>
         <h1>DICE GAME</h1>
@@ -16,15 +19,15 @@
             <h4>Pradėti naują žaidimą</h4>
         </button>
     </header>
-
+ 
     <main>
-        <section class="player">
+        <section class="player player-0">
             <div class="total">
                 <h3>Žaidėjas 1</h3>
-                <h2>0</h2>
+                <h2 class="totalScore-0">0</h2>
             </div>
             <div class="current">
-                <h2>0</h2>
+                <h2 class="score-0">0</h2>
             </div>
         </section>
         <section class="game-container">
@@ -40,16 +43,16 @@
                 </button>
             </div>
         </section>
-        <section class="player">
+        <section class="player player-1">
             <div class="total">
                 <h3>Žaidėjas 2</h3>
-                <h2>0</h2>
+                <h2 class="totalScore-1">0</h2>
             </div>
             <div class="current">
-                <h2>0</h2>
+                <h2 class="score-1">0</h2>
             </div>
         </section>
     </main>
 </body>
-
+ 
 </html>
